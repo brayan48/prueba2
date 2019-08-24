@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.prueba2.MainActivity">
+    <item
+        android:id="@+id/deleteall"
+        android:orderInCategory="100"
+        android:title="Borrar Todos"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/updateposts"
+        android:orderInCategory="100"
+        android:title="Refrescar Posts"
+        app:showAsAction="never" />
+</menu>
